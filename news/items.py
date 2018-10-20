@@ -8,6 +8,6 @@
 from scrapy.item import Item, Field
 
 
-class NewsItem(scrapy.Item):
+class NewsItem(Item):
     title = Field()
     url = Field()
