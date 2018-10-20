@@ -1,6 +1,0 @@
-import scrapy
-import config
-
-
-
-
