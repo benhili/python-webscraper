@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import news.config as config
 
 # Scrapy settings for news project
 #
@@ -65,8 +66,8 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {"news.pipelines.MongoDBPipeline": 300}
 MONGODB_URI = "portal-ssl809-1.rational-mongodb-25.2578074201.composedb.com:16787/"
-MONGODB_USER = "mongouser"
-MONGODB_PASS = "SCo2awh49uVj"
+MONGODB_USER = config.username
+MONGODB_PASS = config.password
 MONGODB_DB = "theguardian"
 MONGODB_COLLECTION = "headlines"
 
