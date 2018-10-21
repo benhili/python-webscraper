@@ -31,5 +31,5 @@ class MongoDBPipeline(object):
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             self.collection.insert(dict(item))
-            print("Headline added to database!")
+            print("Article added to database!")
         return item

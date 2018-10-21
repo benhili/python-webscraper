@@ -9,5 +9,7 @@ from scrapy.item import Item, Field
 
 
 class NewsItem(Item):
-    title = Field()
+    headline = Field()
     url = Field()
+    body = Field()
+    author = Field()

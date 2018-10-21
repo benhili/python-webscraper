@@ -69,7 +69,7 @@ MONGODB_URI = "portal-ssl809-1.rational-mongodb-25.2578074201.composedb.com:1678
 MONGODB_USER = config.username
 MONGODB_PASS = config.password
 MONGODB_DB = "theguardian"
-MONGODB_COLLECTION = "headlines"
+MONGODB_COLLECTION = "articles"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
