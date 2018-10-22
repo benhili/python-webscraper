@@ -10,5 +10,5 @@ This was written as part of a coding challenge to store sanitised webscraping re
 5. Results will now be available via the API
 
 # Using the API
-Simply post json in the following format {"searchterm": "sea cucumber example text"} with your search terms to search accross all text fields in the database
+Simply post json in the following format {"searchterm": "sea cucumber example text"} in a post request to the /intext endpoint with your search terms to search accross all text fields in the database
 the result will be in JSON format
